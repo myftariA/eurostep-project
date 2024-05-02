@@ -1,5 +1,5 @@
 function isPalindrome() {
-    let string = document.getElementById('palindromeNumber');
+    let string = document.getElementById('palindromeWord');
     string = string.toLowerCase();
     return string === string.split("").reverse().join("");
 }
