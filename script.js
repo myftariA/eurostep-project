@@ -1,5 +1,5 @@
 function isPalindrome() {
-    let string = document.getElementById('palindromeWord');
+    let string = document.getElementById('palindromeWord').value;
     string = string.toLowerCase();
     return string === string.split("").reverse().join("");
 }
@@ -19,7 +19,7 @@ function logNumbers() {
 }
 
 function isFactorial() {
-    let n = document.getElementById('factorialNumber');
+    let n = document.getElementById('factorialNumber').value;
     if (n === 0 || n === 1) {
         return 1;
     } else {
